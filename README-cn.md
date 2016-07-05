@@ -1,3 +1,4 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SlantedTextView-green.svg?style=true)](https://android-arsenal.com/details/1/3816)
 # SlantedTextView
 一个倾斜的TextView,适用于标签效果。
 
@@ -6,7 +7,7 @@
 
 ## Gradle
 ```java
-compile 'com.haozhang.libary:android-slanted-textview:1.0'
+compile 'com.haozhang.libary:android-slanted-textview:1.1'
 ```
 
 ## Layout文件
@@ -24,6 +25,7 @@ compile 'com.haozhang.libary:android-slanted-textview:1.0'
     />
 ```
 ## Java
+代码中可以动态设置属性
 ```java
     SlantedTextView stv = (SlantedTextView) findViewById(R.id.test);
 
@@ -34,8 +36,10 @@ compile 'com.haozhang.libary:android-slanted-textview:1.0'
             .setSlantedLength(50)
             .setMode(SlantedTextView.MODE_LEFT);
 ```
-## 注意
+## 属性
 ![注意](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/note.png)
+## SlantedMode
+![SlantedMode](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/slanted_mode.png)
 #License
 ```
 Copyright 2016 Hand HaoZhang

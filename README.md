@@ -1,10 +1,11 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SlantedTextView-green.svg?style=true)](https://android-arsenal.com/details/1/3816)
 # SlantedTextView
 Android slanted TextView . [中文版](https://github.com/HeZaiJin/SlantedTextView/blob/master/README-cn.md)
 ## Preview
 ![预览](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/screenshot.png)
 ## Gradle
 ```java
-compile 'com.haozhang.libary:android-slanted-textview:1.0'
+compile 'com.haozhang.libary:android-slanted-textview:1.1'
 ```
 ## XML Layout
 ```java
@@ -31,8 +32,10 @@ compile 'com.haozhang.libary:android-slanted-textview:1.0'
             .setSlantedLength(50)
             .setMode(SlantedTextView.MODE_LEFT);
 ```
-## Notice
+## Attributes
 ![注意](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/note.png)
+## SlantedMode
+![SlantedMode](https://github.com/HeZaiJin/SlantedTextView/blob/master/screen_shot/slanted_mode.png)
 #License
 ```
 Copyright 2016 Hand HaoZhang
